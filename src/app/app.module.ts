@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
+import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingpageComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule
