@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  link: "https://api.github.com/",
+  link: 'https://api.github.com/',
   Authorization: '8dc91f4b26df2e49e59ce772bc926324d883db8a'
 };
