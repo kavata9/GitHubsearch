@@ -1,3 +1,33 @@
-<p>
-  profile works!
-</p>
+<div class="row" id="search">
+    <input class="form-control form-control-lg" type="text" placeholder="Search repo or user" [(ngModel)]="username" name="username"
+      (keyup)="findProfile()">
+  </div>
+  <div class="row" *ngIf="profile">
+    <div class="col-md-5">
+        <div class="card">
+          <img class="card-img-top" src="{{ profile.avatar_url }}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              <span class="badge badge-dark">Followers {{profile.followers}}</span>
+              <span class="badge badge-dark">Following {{profile.following}}</span>
+              <span class="badge badge-dark">Public repo {{profile.public_repos}}</span>
+            </p>
+            <a href="{{ profile.html_url }}" class="btn btn-outline-primary btn-block" target="_blank">Visit on github</a>
+          </div>
+        </div>
+    </div><!-- left side -->
+    <div class="col-md-7">
+      <div class="row">
+        <div class="card">
+          <h5 class="card-header">Repository</h5>
+          <div class="card-body" *ngFor="let repo of repos">
+            <h5 class="card-title">{{repo.name}}</h5>
+            <p class="card-text">{{ repo.description}}</p>
+            <a href="{{ repo.html_url}}" class="btn btn-outline-success" target="_blank">VisitRepo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
