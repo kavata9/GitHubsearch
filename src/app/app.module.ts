@@ -3,17 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { LandingpageComponent } from './landingpage/landingpage.component';
 import { ServicesComponent } from './services/services.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingpageComponent,
     ServicesComponent,
-    
+    ProfileComponent,
+
   ],
   imports: [
     BrowserModule
