@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  link: 'https://api.github.com/',
-  Authorization: '8dc91f4b26df2e49e59ce772bc926324d883db8a'
+  clientId :'2d5fb1ce85b343a0f0d7',
+ clientSecret :'5a137f13bc314fcbb89d5661430283ffe299305e'
 };
