@@ -4,3 +4,24 @@ body{
     background-image: url('./assets/images/github.jpeg');
     text-align: center;
 }
+.center{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30px;
+  }
+  #search{
+    text-align: center;
+     text-shadow: 1px 0.5px grey;
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 16px;
+     box-shadow:1px 1px 1px 1px #888888;
+  }
+  label{
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 15s steps(60, end);
+  }
