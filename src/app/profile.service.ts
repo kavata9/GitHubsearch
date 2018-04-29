@@ -11,7 +11,7 @@ export class ProfileService {
   // private clientid ='2d5fb1ce85b343a0f0d7'
   // private clientsecret ='5a137f13bc314fcbb89d5661430283ffe299305e'
 
-  private client_id = environment.clientId
+  private client_id = environment.clientId;
   private client_secret = environment.clientSecret;
   constructor(private http:Http) { 
 console.log("service is now ready");
