@@ -1,5 +1,5 @@
 # GitHubSearch API
-#### This is an angular application that uses GitHub Api, {29/4/2018}
+#### This is an angular application that uses GitHub Api, 29/4/2018
 #### By Agnes Kavata Musyoka
 ## Description
 This project was generated with Angular CLI version 5.
